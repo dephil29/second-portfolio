@@ -1,0 +1,84 @@
+@font-face {
+    font-family: Orange-Juice;
+    src: url(orange-juice-2.0.ttf);
+}
+
+body {
+    background-color: rgb(238, 234, 118);
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+#nav {
+    font-family: Orange-Juice;
+    font-size: 90px;
+    color: rgb(184, 114, 201);
+    text-align: center;
+}
+
+#therest {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 85vh;
+    flex: 1;
+}
+
+.top {
+  display: flex;
+  flex: 2;
+  width: 100%;
+}
+
+.bottom{
+  display: flex;
+  flex: 2;
+  width: 100%;
+}
+
+.panels {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    justify-content: space-between;
+    width: 100%;
+    margin: 20px;
+}
+
+#falzon {
+  background-image: url(falzon.png);
+  background-size: cover;
+  background-position: center;
+}
+
+#crappy-bird {
+  background-image: url(crappy-bird.png);
+  background-size: cover;
+  background-position: center;
+}
+
+#drawing-app {
+  background-image: url(drawing-app.png);
+  background-size: cover;
+  background-position: center;
+}
+
+#tranquila {
+  background-image: url(tranquila.png);
+  background-size: cover;
+  background-position: center;
+}
+
+#dice-roll-game {
+  background-image: url(dice-roll-game.png);
+  background-size: cover;
+  background-position: center;
+}
+
+#little-boxes {
+  background-image: url(little-boxes.png);
+  background-size: cover;
+  background-position: center;
+}
